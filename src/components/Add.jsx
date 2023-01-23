@@ -25,7 +25,6 @@ import {
 const CustomBox = styled(Box)({
   width: "400px",
   height: "300px",
-  backgroundColor: "white",
   margin: "auto",
   padding: "3rem",
   borderRadius: "5px",
@@ -73,7 +72,7 @@ const Add = () => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <CustomBox>
+        <CustomBox bgcolor={"background.default"} color={"text.primary"}>
           <Typography variant="h6" color="grey" textAlign="center">
             Create post
           </Typography>
